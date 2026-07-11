@@ -91,7 +91,7 @@ ORDER BY Promedio_KM DESC;
 2. **Aprendizaje analítico:** Identifiqué que fue un error de digitación al publicar la oferta. Este tipo de valores distorsiona el promedio general del modelo.
 
 
-<img width="962" height="455" alt="01" src="https://github.com/user-attachments/assets/af85c688-35c9-45d4-8295-dfe816692ad7" />
+<img width="751" height="344" alt="004" src="https://github.com/user-attachments/assets/a386cafc-f2c2-4270-aa4d-9be401e88908" />
 
 
 
