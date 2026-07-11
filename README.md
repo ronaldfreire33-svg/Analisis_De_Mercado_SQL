@@ -154,9 +154,9 @@ GROUP BY Vida_util;
 - **El tropiezo inicial:** En las primeras pruebas intenté escribir múltiples instrucciones `CASE` independientes para cada condición. Esto me generaba columnas separadas e innecesarias en la terminal llenas de espacios vacíos o valores nulos.
 - **La solución:** Aprendí a unificar toda la regla lógica en un solo bloque `CASE WHEN ... THEN ... ELSE ... END`. De esta forma, cada vehículo entra en una sola categoría y el resultado devuelve una columna limpia llamada ‘Vida_util’.
 
-<img width="1133" height="272" alt="image" src="https://github.com/user-attachments/assets/045cc0ea-e1ed-498f-845b-efb9b9e5e2a0" />
+<img width="947" height="248" alt="image" src="https://github.com/user-attachments/assets/13677491-0089-444b-8372-e1e2a3a61aa0" />
 
-<img width="972" height="588" alt="image" src="https://github.com/user-attachments/assets/f38adefe-21f5-4d8f-bdcc-0774ba457976" />
+<img width="1077" height="682" alt="image" src="https://github.com/user-attachments/assets/5e160b54-a5f5-44cf-8453-c365d6740da3" />
 
 
 ### Errores Encontrados y Cosas que Aprendí en el Camino
