@@ -1,3 +1,4 @@
+<img width="746" height="341" alt="Untitled-2026-07-11-0913" src="https://github.com/user-attachments/assets/8e7fb7f3-6825-471d-adb1-5773a1648a39" />
 # “Precio, Uso y Oferta: Análisis del Mercado de Autos Usados”
 
 ## Contexto y Origen de los Datos
@@ -92,6 +93,8 @@ ORDER BY Promedio_KM DESC;
 
 <img width="746" height="341" alt="Untitled-2026-07-11-0913" src="https://github.com/user-attachments/assets/950202a2-9463-447c-82f3-021207e5571e" />
 <img width="1257" height="573" alt="image" src="https://github.com/user-attachments/assets/9505cce6-cfda-41c6-bb5b-844cd59eba1a" />
+<img width="1138" height="536" alt="image" src="https://github.com/user-attachments/assets/808dded9-1542-49e5-8a49-6c67d1da38c2" />
+
 
 
 **Lectura de Mercado:**
