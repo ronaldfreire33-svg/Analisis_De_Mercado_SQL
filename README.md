@@ -90,7 +90,8 @@ ORDER BY Promedio_KM DESC;
 1. El *Aveo Family* arrojó un `Precio_Max` de `104.99` ($104,990 USD). Al consultar ese registro en detalle, era un auto con kilometraje normal pero con un precio absurdo para la gama.
 2. **Aprendizaje analítico:** Identifiqué que fue un error de digitación al publicar la oferta. Este tipo de valores distorsiona el promedio general del modelo.
 
-<img width="1242" height="492" alt="image" src="https://github.com/user-attachments/assets/7e9ae5d8-d53d-4124-acb4-3e803475a006" />
+<img width="3068" height="1484" alt="Untitled-2026-07-11-0913" src="https://github.com/user-attachments/assets/1d06abbb-402d-4859-8da1-5f43ebb80dda" />
+
 
 **Lectura de Mercado:**
 
