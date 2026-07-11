@@ -91,7 +91,7 @@ ORDER BY Promedio_KM DESC;
 2. **Aprendizaje analítico:** Identifiqué que fue un error de digitación al publicar la oferta. Este tipo de valores distorsiona el promedio general del modelo.
 
 
-<img width="1040" height="473" alt="001" src="https://github.com/user-attachments/assets/4e87002a-3dae-42dc-87a7-5f6fa42f8120" />
+<img width="922" height="426" alt="image" src="https://github.com/user-attachments/assets/4c1ed0bc-5a07-462b-a0b1-0a5190bec425" />
 
 
 
@@ -154,7 +154,7 @@ GROUP BY Vida_util;
 - **El tropiezo inicial:** En las primeras pruebas intenté escribir múltiples instrucciones `CASE` independientes para cada condición. Esto me generaba columnas separadas e innecesarias en la terminal llenas de espacios vacíos o valores nulos.
 - **La solución:** Aprendí a unificar toda la regla lógica en un solo bloque `CASE WHEN ... THEN ... ELSE ... END`. De esta forma, cada vehículo entra en una sola categoría y el resultado devuelve una columna limpia llamada ‘Vida_util’.
 
-<img width="970" height="268" alt="image" src="https://github.com/user-attachments/assets/e914ff3b-e53e-443f-a537-f0d0dbef373c" />
+<img width="560" height="141" alt="image" src="https://github.com/user-attachments/assets/f96e0d94-ac71-4e5c-b695-8e37f432c46a" />
 
 <img width="972" height="588" alt="image" src="https://github.com/user-attachments/assets/f38adefe-21f5-4d8f-bdcc-0774ba457976" />
 
