@@ -94,10 +94,6 @@ ORDER BY Promedio_KM DESC;
 2. **Aprendizaje analítico:** Identifiqué que fue un error de digitación al publicar la oferta. Este tipo de valores distorsiona el promedio general del modelo.
 
 <img width="746" height="341" alt="Untitled-2026-07-11-0913" src="https://github.com/user-attachments/assets/950202a2-9463-447c-82f3-021207e5571e" />
-<img width="1257" height="573" alt="image" src="https://github.com/user-attachments/assets/9505cce6-cfda-41c6-bb5b-844cd59eba1a" />
-<img width="1138" height="536" alt="image" src="https://github.com/user-attachments/assets/808dded9-1542-49e5-8a49-6c67d1da38c2" />
-<img width="746" height="341" alt="002" src="https://github.com/user-attachments/assets/2d84f096-2237-4c66-9b21-63f52d91431a" />
-<img width="1397" height="655" alt="image" src="https://github.com/user-attachments/assets/77d7752d-e655-48c5-b1b3-28642049e027" />
 <img width="968" height="451" alt="image" src="https://github.com/user-attachments/assets/316b4e30-b1b9-406f-a52b-dd1a8301c2ea" />
 
 
