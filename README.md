@@ -143,7 +143,7 @@ FROM Registro_PatioTuerca
 GROUP BY Vida_util;
 ```
 
-![Texto alternativo](<img width="688" height="251" alt="image 6" src="https://github.com/user-attachments/assets/3ed18f4f-4017-44af-a68f-741ca7b78a40" />)
+<img width="688" height="251" alt="image 6" src="https://github.com/user-attachments/assets/3ed18f4f-4017-44af-a68f-741ca7b78a40" />
 
 
 ### Tropiezos y Lecciones con la Sintaxis
@@ -152,6 +152,9 @@ GROUP BY Vida_util;
 - **La solución:** Aprendí a unificar toda la regla lógica en un solo bloque `CASE WHEN ... THEN ... ELSE ... END`. De esta forma, cada vehículo entra en una sola categoría y el resultado devuelve una columna limpia llamada ‘Vida_util’.
 
 <img width="1342" height="242" alt="image" src="https://github.com/user-attachments/assets/373d805f-f5cf-4556-bd4a-5d85bc741c80" />
+
+<img width="983" height="615" alt="image" src="https://github.com/user-attachments/assets/be0e1d9e-1428-42fd-add1-a687f774f2ae" />
+
 
 
 
