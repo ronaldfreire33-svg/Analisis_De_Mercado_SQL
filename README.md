@@ -35,7 +35,7 @@ LIMIT 5 ;
 ```
 <img width="647" height="312" alt="image" src="https://github.com/user-attachments/assets/fe147a4f-bff7-49e1-8f7d-1a6ad0256d8e" />
 
-:white_check_mark: **Con esto queda respondida la primera pregunta: los 5 modelos con mayor presencia en el mercado son Aveo Family, Explorer XLT, Spark GT, Fortuner 2.7 y Grand Vitara SZ. Antes de responder las siguientes preguntas (precio promedio, mínimo y máximo), necesitaba asegurarme de que los datos de precio fueran confiables.**
+✅ **Con esto queda respondida la primera pregunta: los 5 modelos con mayor presencia en el mercado son Aveo Family, Explorer XLT, Spark GT, Fortuner 2.7 y Grand Vitara SZ. Antes de responder las siguientes preguntas (precio promedio, mínimo y máximo), necesitaba asegurarme de que los datos de precio fueran confiables.**
 
 ------------------
 
@@ -66,7 +66,7 @@ WHERE Modelo IN ('Aveo Family', 'Explorer XLT', 'Spark GT', 'Fortuner 2.7', 'Gra
 
 ***Criterio sobre alterar datos:** Al detectar las 5 filas vacías, evalué si debía rellenar esos valores, pero la decisión correcta fue no modificar la información original para no romper la integridad de la base, el tocar base de datos o valores sin una autorización lo único que lograría es alterar datos para el informe final.***
 
-:white_check_mark: **Ya con la muestra limpia de 601 filas, podía responder con confianza la segunda pregunta: ¿cuál es el precio promedio, mínimo y máximo de cada modelo?**
+✅ **Ya con la muestra limpia de 601 filas, podía responder con confianza la segunda pregunta: ¿cuál es el precio promedio, mínimo y máximo de cada modelo?**
 
 *A partir de aquí una de mis clausulas principales además de los modelos… es la adjuntada, de esa manera le pedimos a SQL que no tome en consideración las filas que tengan valores nulos en la columna “Precio”.*
 
@@ -145,7 +145,7 @@ WHERE Precio IS NOT NULL
 
 - Elegí `DENSE_RANK()` para evitar saltos en la numeración del ranking en caso de que dos o más publicaciones tuvieran exactamente el mismo precio.
 
-:white_check_mark: **Con el ranking interno resuelto, quedaban las dos últimas preguntas del análisis: ¿cómo varía el precio según el kilometraje?, y ¿qué rango de kilometraje concentra más publicaciones? Para responder ambas, agrupé los autos en tres rangos de uso.**
+✅ **Con el ranking interno resuelto, quedaban las dos últimas preguntas del análisis: ¿cómo varía el precio según el kilometraje?, y ¿qué rango de kilometraje concentra más publicaciones? Para responder ambas, agrupé los autos en tres rangos de uso.**
 
 ------------------
 
@@ -172,18 +172,19 @@ GROUP BY Vida_util;
 
 <img width="688" height="251" alt="image 6" src="https://github.com/user-attachments/assets/3ed18f4f-4017-44af-a68f-741ca7b78a40" />
 
-:white_check_mark: **Con esta segmentación quedan respondidas las últimas dos preguntas planteadas al inicio: el precio cae de forma progresiva a medida que aumenta el kilometraje, y el rango de "Uso Moderado" concentra la mayor cantidad de publicaciones del mercado.**
+✅ **Con esta segmentación quedan respondidas las últimas dos preguntas planteadas al inicio: el precio cae de forma progresiva a medida que aumenta el kilometraje, y el rango de "Uso Moderado" concentra la mayor cantidad de publicaciones del mercado.**
 
 ------------------
 
-<img width="947" height="248" alt="image" src="https://github.com/user-attachments/assets/13677491-0089-444b-8372-e1e2a3a61aa0" />
-
-<img width="1021" height="530" alt="image" src="https://github.com/user-attachments/assets/1471e63d-532f-4213-a246-383af36610bf" />
+<img width="1020" height="548" alt="image" src="https://github.com/user-attachments/assets/333fa440-0762-4a1f-befb-256b29e05841" />
 
 ### Tropiezos y Lecciones con la Sintaxis
 
 - **El tropiezo inicial:** En las primeras pruebas intenté escribir múltiples instrucciones `CASE` independientes para cada condición. Esto me generaba columnas separadas e innecesarias en la terminal llenas de espacios vacíos o valores nulos.
 - **La solución:** Aprendí a unificar toda la regla lógica en un solo bloque `CASE WHEN ... THEN ... ELSE ... END`. De esta forma, cada vehículo entra en una sola categoría y el resultado devuelve una columna limpia llamada ‘Vida_util’.
+
+<img width="885" height="220" alt="image" src="https://github.com/user-attachments/assets/3af14fd0-8403-43c1-8644-5ee94fc3d8f0" />
+
 
 ### Errores Encontrados y Cosas que Aprendí en el Camino
 
