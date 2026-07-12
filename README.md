@@ -64,11 +64,11 @@ WHERE Modelo IN ('Aveo Family', 'Explorer XLT', 'Spark GT', 'Fortuner 2.7', 'Gra
 - **Precios nulos (`NULL`):** 0 filas.
 - **Muestra limpia utilizable:** 601 filas.
 
-***Criterio sobre alterar datos:** Al detectar las 5 filas vacías, evalué si debía rellenar esos valores, pero la decisión correcta fue no modificar la información original para no romper la integridad de la base, el tocar base de datos o valores sin una autorización lo único que lograría es alterar datos para el informe final.***
+***Criterio sobre alterar datos:** Al detectar las 5 filas vacías, evalué si debía rellenar esos valores, pero la decisión correcta fue no modificar la información original para no romper la integridad de la base, el tocar base de datos o valores sin una autorización lo único que lograría es alterar datos para el informe final.*
 
 ✅ **Ya con la muestra limpia de 601 filas, podía responder con confianza la segunda pregunta: ¿cuál es el precio promedio, mínimo y máximo de cada modelo?**
 
-*A partir de aquí una de mis clausulas principales además de los modelos… es la adjuntada, de esa manera le pedimos a SQL que no tome en consideración las filas que tengan valores nulos en la columna “Precio”.*
+*A partir de aquí una de mis clausulas principales además de los modelo, va ser excluir a la filas de vacios con el codigo escrito a continuacion, de esa manera le pedimos a SQL que no tome en consideración las filas que tengan valores nulos en la columna “Precio”.*
 
 ```sql
 WHERE Precio IS NOT NULL AND Precio != ''
