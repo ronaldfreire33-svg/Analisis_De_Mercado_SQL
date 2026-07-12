@@ -83,6 +83,8 @@ ORDER BY Promedio_KM DESC;
 ```
 <img width="938" height="300" alt="image 3" src="https://github.com/user-attachments/assets/d8a9c723-034c-4070-ae96-0be56a0c20bd" />
 
+<img width="900" height="563" alt="grafico1_precio_por_modelo" src="https://github.com/user-attachments/assets/01092433-c0e5-42c5-8696-da6963710069" />
+
 ### Observaciones y Hallazgos de Negocio
 
 **Detección de Outliers (Anomalías en Datos):**
