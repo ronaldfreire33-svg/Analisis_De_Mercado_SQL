@@ -1,10 +1,20 @@
 # “Precio, Uso y Oferta: Análisis del Mercado de Autos Usados”
 
-## Contexto y Origen de los Datos
+## Contexto, Origen de los Datos. Preguntas de negocio que responde este análisis:
 
 - **Objetivo:** Practicar SQL con un caso real intentando responder preguntas básicas sobre autos usados en Ecuador: precios promedio, rankings de los más baratos, cómo cae el precio según el kilometraje, y qué tan disponible está cada rango de kilometraje en el mercado actual.
 - **Fuente:** Usé un dataset público de Kaggle (el autor indica que los datos son extraídos de PatioTuerca).
 - **Aclaración y Mentoría:** Este proyecto lo desarrollé de la mano de la IA como una guía, no como alguien que lo resolviera por mí. Mi meta no fue solo tirar código, sino aprender a interpretar los resultados y saber qué herramientas de SQL usar en un escenario real sin instrucciones guiadas.
+
+## Preguntas de negocio que responde este análisis:
+
+**1.** *¿Qué modelos tienen mayor presencia en el mercado de autos usados?*
+
+**2.** *¿Cuál es el precio promedio, mínimo y máximo de cada modelo?*
+
+**3.** *¿Cómo varía el precio según el kilometraje del vehículo?*
+
+**4.** *¿Qué rango de kilometraje concentra la mayor cantidad de publicaciones?*
 
 ## Bloque 0: Diagnóstico Inicial (¿A qué me enfrentaba?)
 
