@@ -116,7 +116,7 @@ ORDER BY Promedio_KM DESC;
 1. El **Spark GT** es el modelo con menor desgaste promedio (63,340 km) y mantiene un precio promedio de $12,470 USD, muy cercano al *Aveo Family* ($12,240 USD) a pesar de ser un segmento más pequeño, debido a su menor uso.
 2. El **Explorer XLT** y la **Fortuner 2.7** lideran el rango de precios altos (~$32,200 USD promedio), pero el Explorer presenta un kilometraje promedio superior (143k km frente a 123k km).
 
-:white_check_mark: **Estas métricas dan un promedio general por modelo, pero no muestran cómo se distribuyen los precios individuales dentro de cada uno. Antes de avanzar a la pregunta de kilometraje, quise identificar cuáles son las publicaciones más económicas y más caras dentro de cada modelo.**
+✅ **Estas métricas dan un promedio general por modelo, pero no muestran cómo se distribuyen los precios individuales dentro de cada uno. Antes de avanzar a la pregunta de kilometraje, quise identificar cuáles son las publicaciones más económicas y más caras dentro de cada modelo.**
 
 ------------------
 
